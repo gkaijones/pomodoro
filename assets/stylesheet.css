@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+#tomato {
+    padding: 60px 60px 0px 60px;
+    font-size: 180px;
+}
+
+#clock {
+    color: crimson;
+    padding: 20px;
+    font-size: 60px;
+}
+
+button {
+    color: white;
+    background-color: purple;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#buttons {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center
+}
+
+#main-buttons {
+    padding: 20px;
+}
+#start {
+    background-color: green;
+}
+
+#pause {
+    background-color: blue;
+}
+
+#reset {
+    background-color: tomato;
+}
+
+
+
